@@ -1,11 +1,12 @@
 One should always remember differences between module, package, and library.
 
-Module is a single file.
-Package is directory containing modules.
-Library is a collection of packages.
+- Module is a single file.
 
-In Golang, each module includes package name. For example package main
+- Package is directory containing modules.
 
+- Library is a collection of packages.
+
+In Golang, each module includes package name. For example package main.
 All the modules contained in one package should have access to the properties (considering these properties to be public) and methods of other modules in that package (directory)
 
 In case we want to import something from another package, we first need to determine its path determined by go.mod file

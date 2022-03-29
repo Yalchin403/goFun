@@ -1,6 +1,6 @@
 module github.com/Yalchin403/goFun
 
-go 1.13
+go 1.18
 
 require (
 	github.com/ipdata/go v0.7.2 // indirect
